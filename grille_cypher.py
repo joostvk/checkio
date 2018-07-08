@@ -4,24 +4,37 @@ cipher_grille =       (
 'X..X' ,
 '....' )
 
-
 letters = ('itdf',
          'gdce',
          'aton',
          'qrdi')
 
-grille = sorted((x, y) for x in range(4) for y in range(4) if cipher_grille[x][y] == 'X')
-
-
-x = ((x, y) for x in range(4) for y in range(4) if cipher_grille[x][y] == 'X')
-x()
 
 coordinates = []
 len_cipher_grille = len(cipher_grille)
+# loop through cipher_grill and store coordinates of X's
 for i in range(len_cipher_grille):
     for j in range(len_cipher_grille):
         if cipher_grille[i][j] == 'X':
             coordinates.append((i,j))
+            
+password  = ''
+for x,y in coordinates:
+    password.append((letters[x][y]))
+
+tst = 'joost'
+tst.
+tst.append('jj')
+tst
+
+grille = list((y, 3 - x) for (x, y) in coordinates)
+
+for x,y in coordinates:
+    print(letters[x][y])
+
+# find letters on coordinates
+letters[0][0]
+
 
 grille = list((y, 3 - x) for (x, y) in coordinates)
 
@@ -50,11 +63,6 @@ for (x,y) in cipher_grille:
     print(x,y)
     
 type(cipher_grille)
-
-
-names = ['joost', 'janneke', 'lena', 'daniel']
-x = [name for name in names if name[0].upper() == 'J']
-x
 
 
 names = [('joost',1974), ('janneke',1976), ('lena',2007), ('daniel',2011)]
