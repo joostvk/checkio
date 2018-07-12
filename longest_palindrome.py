@@ -19,3 +19,4 @@ longestPalindromic("aaaa") == "aaaa"
 s = "12345"
 s[::-1]
 str(len(s))
+
