@@ -19,6 +19,7 @@ def abs_sorting(num_list: tuple) -> list:
 abs_sorting((-20, -5, 10, 15)) == [-5, 10, 15, -20] # or (-5, 10, 15, -20)
 abs_sorting((1, 2, 3, 0)) == [0, 1, 2, 3]
 abs_sorting((-1, -2, -3, 0)) == [0, -1, -2, -3]
+print("joost")
 
 
 
