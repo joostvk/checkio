@@ -17,9 +17,9 @@ count_consecutive_summers(99)
 
 
 
-start met een nummer in reeks
-test of nummer gelijk is aan raadnummer
-voeg volgende nummer toe aan reeks
+# start met een nummer in reeks
+# test of nummer gelijk is aan raadnummer
+# voeg volgende nummer toe aan reeks
         
 
 

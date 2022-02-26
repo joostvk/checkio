@@ -11,9 +11,9 @@ letters = ('itdf',
 
 
 def recall_password(cipher_grille, letters):
-"""
-returns password based upon cipher_grille, the cipher_grille is rotated 3 times 90 degrees to right
-"""
+    """
+    returns password based upon cipher_grille, the cipher_grille is rotated 3 times 90 degrees to right
+    """
     coordinates = []
     len_cipher_grille = len(cipher_grille)
     # loop through cipher_grill and store coordinates of X's
