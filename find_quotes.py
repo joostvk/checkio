@@ -9,9 +9,9 @@ def find_quotes():
 
 zin ='"Greetings"'
 zinlist = zin.split('"')
-[y for y in zinlist if "'" not in y ]
+x = [y for y in zinlist if "'" not in y ]
 
 
 
-find_quotes('"Greetings"') == ['Greetings']
+# find_quotes('"Greetings"') == ['Greetings']
 find_quotes('Hi') == []
